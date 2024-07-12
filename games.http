@@ -1,0 +1,30 @@
+###
+GET http://localhost:5239/
+###
+GET http://localhost:5239/games
+###
+DELETE  http://localhost:5239/games/12
+###
+GET http://localhost:5239/games/10
+###
+POST http://localhost:5239/games
+Content-Type: application/json
+    
+    {
+    "name": "Batman",
+    "GenreId":4,
+    "price": 29,
+    "releaseDate": "2017-12-03"
+    }
+
+###
+PUT http://localhost:5239/games/10
+Content-Type: application/json
+    
+    {
+    "name": "Injustice god among us",
+    "GenreId": "1",
+    "price": 29,
+    "releaseDate": "2012-12-03"
+    }
+
