@@ -1,4 +1,4 @@
-# GameSpend
+# GameSpend API
 
 **GameSpend** is a video game spending tracker application designed to help you manage and control your gaming expenses. Built with ASP.NET Core, GameSpend uses Entity Framework to interact with a SQLite database, ensuring a robust and efficient data management system.
 
